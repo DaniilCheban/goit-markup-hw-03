@@ -16,21 +16,63 @@ body {
 .list {
   list-style:  none;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+.container{
+   
+    max-width: 1158px;
+    padding-left: 0 15px;
+    padding-right: 0 15px;
+}
 /**______TITLE______**/
 
 .head-title {
     background-color: #2e2f42;
-   
+    width: 100%;
+     flex-shrink: 0;
+     text-align: center;
+    
+}
+.order-service{
+  
+text-align: center;
+padding-top: 188px;
+    padding-left: 472px;
+    padding-right: 472px;
 }
 
 .head-text {
     color: #ffffff;
-    
     font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
+    display: flex;
+        width: 496px;
+        flex-direction: column;
+        flex-shrink: 0;
+    justify-content: center;
+    
+    
 
 }
 .head-name{
@@ -53,6 +95,7 @@ body {
     letter-spacing: 0.04em;
 background-color: var(--brand-color);
 cursor: pointer;
+
 }
 
 .head-btn:hover,
@@ -64,6 +107,12 @@ cursor: pointer;
 /**______ADVANTAGES______**/
 
 .advantages-section-list{
+    padding-bottom: 120px;
+    
+}
+.advant-container{
+    display: flex;
+    flex-shrink: 0;
     
 }
 .advant-title{
@@ -84,17 +133,32 @@ letter-spacing: 0.02em;
 .advantages-item {
     color: #434455;
     font-size: 16px;
-
+display: flex;
+    width: calc((100% - 72px) / 4);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .advantages-list {
-    
+    display: flex;
+    gap: 24px;
+    padding-left: 156px;
+    padding-top: 120px;
 }
 .advantages-subtitle {
 }
 
 /**______WHAT ARE WE DOING______**/
+.doing-head{
+    display: flex;
+    text-align: center;
+    padding-left: 559px;
+}
+.work-container{
+ margin-bottom: 120px;
+}
 
 
 .doing-head {
@@ -105,46 +169,81 @@ letter-spacing: 0.02em;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        text-align: center 
+        text-align: center;
+        
 }
 
 .doing-list {
     background-color: white;
+    display: inline-flex;
+    gap: 24px;
+    padding-left: 156px;
 }
 
 .doing-item {
     color: #E7E9FC;
+    display: flex;
+    flex-wrap: wrap;
+        width: calc((100% - 48px) / 3);
+        padding-top: 72px;
 }
 
 /**______TEAM______**/
 
 .secttion-teeam {
   background-color:  #F4F4FD;
+  padding-top: 120px;
 }
 
 .team-head {
+    display: flex;
+    padding-left: 639px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em ;
     text-transform: capitalize;
     color: #2E2F42;
+    
 }
 
 .team-list {
+    padding-left: 156px;
+    padding-top: 72px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+    
 }
 
 .team-item {
     background-color: white;
+    width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
+            padding-bottom: 0px;
+            flex-direction: column;
+            align-items: center;
+            flex-shrink: 0;
 }
 
 .team-title {
     color: #2E2F42;
     font-size: 20px;
-        
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+       text-align: center;
+       flex-direction: column;
+       margin-top: 32px;
+       gap: 8px;
+    
+    text-align: center;
+}
+.item-text{
+    text-align: center;
+    margin-bottom: 32px;
 }
 
 
@@ -152,9 +251,21 @@ letter-spacing: 0.02em;
 
 /**------HEADER------**/
 .header {
-    
+    display: flex;
+    width: 100%;
+    max-width: 1158px;
+    justify-content: space-between;
+    padding-left: 156px;
 }
+.nav-header{
 
+    display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
 .logo-link {
     color: #4d5ae5;
         font-size: 18px;
@@ -171,9 +282,17 @@ letter-spacing: 0.02em;
 
 .navigation-list{
     list-style: none;
+        display: flex;
+            align-items: center;
+            gap: 40px;
 }
 link{
     text-decoration: none;
+}
+.header-list{
+    display: flex;
+        align-items: center;
+        gap: 40px;
 }
 .header-list:hover,
 .header-list:focus {
@@ -200,9 +319,18 @@ color:  #404bbf;
 
         
 
-.contacts-list {}
+.contacts-list {
+  
+        display: flex;
+            align-items: center;
+            gap: 40px;
+            padding-left: 332px;
+        }
 
-.contacts-item {}
+.contacts-item{
+    display: flex;
+    
+}
 
 .contacts-link {
     color: #434455;
@@ -297,4 +425,14 @@ cursor: pointer;}
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        width: 264px;
+}
+.footer-cont{
+    
+    max-width: 264px;
+    display: inline-block;
+    gap: 16px;
+    padding-top: 140px;
+    padding-left: 156px;
+padding-bottom:100px ;
 }
