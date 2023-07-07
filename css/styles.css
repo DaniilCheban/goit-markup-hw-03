@@ -302,7 +302,7 @@ link{
 color: #404bbf;
 }
 .header-item{
-    padding: 24px 0;
+    
 }
 
 
@@ -323,7 +323,9 @@ color: #404bbf;
 color:  #404bbf;
 }
 
-        
+.head-padd{
+    padding: 24px 0;
+}
 
 .contacts-list {
   
@@ -334,7 +336,7 @@ color:  #404bbf;
 
 .contacts-item{
     display: flex;
-    padding: 24px 0;
+    
     
 }
 
