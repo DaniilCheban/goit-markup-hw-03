@@ -48,17 +48,12 @@ img {
 /**______TITLE______**/
 
 .head-title {
-    /*background-color: #2e2f42;
+    background-color: #2e2f42;
     width: 100%;
      flex-shrink: 0;
      text-align: center;
     padding: 188px 0 188px;
     
-}
-.order-service{
-
-text-align: center;
-flex-direction: column;
 }
 
 .head-text {
@@ -71,20 +66,15 @@ flex-direction: column;
         max-width: 496px;
         flex-direction: column;
         flex-shrink: 0;
-    justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    
     
     
 
 }
-.head-name{
-    color: #2e2f42;
-        
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        text-align: center;
-        letter-spacing: 0.02em;
-}
+
+
 
 
 .head-btn {
@@ -101,13 +91,14 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
+margin: 0 auto;
 
 
 }
 
 .head-btn:hover,
 .head-btn:focus {
-    background-color: #404BBF;*/
+    background-color: #404BBF;
 
 }
 
