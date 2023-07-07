@@ -311,9 +311,10 @@ color: #404bbf;
     font-style: normal
 }
 .adress-link {
+    display: inline-block;
     color:  #2E2F42;
     font-size: 16px;
-
+    padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -323,9 +324,6 @@ color: #404bbf;
 color:  #404bbf;
 }
 
-.head-padd{
-    padding: 24px 0;
-}
 
 .contacts-list {
   
