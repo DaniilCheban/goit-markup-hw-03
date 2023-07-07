@@ -122,11 +122,17 @@ border-radius: 4px;
     flex-shrink: 0;
     
 }
-.advant-title{
- font-size: 56px;
- line-height: 1.07;
- text-align: center;
- color: #ffffff ;
+.visualy-hidden{
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .advantages-title {
@@ -208,7 +214,7 @@ letter-spacing: 0.02em;
 }
 .team-container{
     padding: 32px 16px;
-    
+
 }
 
 .team-head {
@@ -365,7 +371,7 @@ color:  #404bbf;
             padding-bottom: 120px;
 }
 
-.menu-container {}
+
 
 .button-list {
     display: flex;
@@ -399,6 +405,8 @@ background: var(--cloud, #F4F4FD);
 .btn-style:focus {
     color: #ffffff;
     background-color: #404BBF;
+    border: 1px solid transparent;
+    
 }
 
 
@@ -461,6 +469,7 @@ background: var(--cloud, #F4F4FD);
 
 .footer-style {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-link {
@@ -471,6 +480,8 @@ background: var(--cloud, #F4F4FD);
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
     
@@ -489,14 +500,5 @@ background: var(--cloud, #F4F4FD);
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        width: 264px;
-}
-.footer-cont{
-    
-    max-width: 264px;
-    display: inline-block;
-    gap: 16px;
-    padding-top: 140px;
-    padding-left: 156px;
-padding-bottom:100px ;
+        max-width: 264px
 }
