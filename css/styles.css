@@ -132,7 +132,7 @@ border-radius: 4px;
 .advantages-title {
     color:#2E2F42;
     font-size: 20px;
-
+margin-bottom: 8px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -158,10 +158,15 @@ letter-spacing: 0.02em;
 }
 
 /**______WHAT ARE WE DOING______**/
+.doing-section{
+    padding-bottom: 120px;
+}
+
 .doing-head{
     display: flex;
     text-align: center;
     padding-left: 559px;
+    margin-bottom: 72px;
 }
 .work-container{
  margin-bottom: 120px;
@@ -182,7 +187,7 @@ letter-spacing: 0.02em;
 
 .doing-list {
     background-color: white;
-    display: inline-flex;
+    display: flex;
     gap: 24px;
     padding-left: 156px;
 }
@@ -200,6 +205,10 @@ letter-spacing: 0.02em;
 .secttion-teeam {
   background-color:  #F4F4FD;
   padding-top: 120px;
+}
+.team-container{
+    padding: 32px 16px;
+    
 }
 
 .team-head {
@@ -266,6 +275,7 @@ border-bottom: 1px solid var(--cornflower, #E7E9FC);
         align-items: center;
         margin: 0 auto;
         justify-content: space-between;
+        padding: 0 15px 0 15px;
        
 }
 .logo-link {
@@ -297,6 +307,7 @@ link{
     display: flex;
         align-items: center;
         gap: 40px;
+        padding: 24px 0 24px;
 }
 .header-list:hover,
 .header-list:focus {
