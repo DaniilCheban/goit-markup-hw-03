@@ -35,15 +35,18 @@ ol {
 }
 
 img {
+    height: auto;
+    width: 100%;
     display: block;
 }
 .container{
    
-        width: 100%;
-            max-width: 1158px;
-            margin: 0 auto;
-            padding-left: 0 15px;
-            padding-right: 0 15px;
+width: 100%;
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
 }
 .visualy-hidden{
     position: absolute;
@@ -62,21 +65,17 @@ img {
 .head-title {
     background-color: #2e2f42;
     width: 100%;
-     flex-shrink: 0;
      text-align: center;
     padding: 188px 0 188px;
 }
 
 .head-text {
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    display: flex;
         max-width: 496px;
-        flex-direction: column;
-        flex-shrink: 0;
         margin: 0 auto;
         margin-bottom: 48px;
 }
@@ -107,7 +106,7 @@ margin: 0 auto;
 
 .advantages-section-list{
     padding: 120px 0 120px;
-    margin: 0 auto;
+   
 }
 .advant-container{
     display: flex;
@@ -126,21 +125,14 @@ letter-spacing: 0.02em;
 .advantages-item {
     color: #434455;
     font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     width: calc((100% - 72px) / 4);
-    gap: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .advantages-list {
-    
     display: flex;
     gap: 24px;
-    
-   
 }
 .advantages-subtitle {
 }
@@ -152,9 +144,6 @@ letter-spacing: 0.02em;
 }
 
 .doing-head{
-   
-    text-align: center;
-    
     margin-bottom: 72px;
 }
 .work-container{
@@ -175,7 +164,7 @@ letter-spacing: 0.02em;
 }
 
 .doing-list {
-    background-color: white;
+   
     display: flex;
     gap: 24px;
     
@@ -185,7 +174,7 @@ letter-spacing: 0.02em;
     color: #E7E9FC;
     flex-wrap: wrap;
     width: calc((100% - 48px) / 3);
-        padding-top: 72px;
+        
 }
 
 /**______TEAM______**/
@@ -210,7 +199,7 @@ letter-spacing: 0.02em;
 
 .team-list {
 
-    padding-bottom: 32px;
+    
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -236,18 +225,12 @@ letter-spacing: 0.02em;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-       text-align: center;
-       flex-direction: column;
-       margin-top: 32px;
        margin-bottom: 8px;
-       gap: 8px;
-
-    
     text-align: center;
 }
-.item-text{
+.item-team-text{
     text-align: center;
-    margin-bottom: 32px;
+    
 }
 
 
@@ -274,7 +257,7 @@ border-bottom: 1px solid var(--cornflower, #E7E9FC);
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-right: 76px;
+        
 }
 .studio-head{
     color: #2e2f42;
@@ -377,10 +360,7 @@ color:  #404bbf;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.04em;
-    display: flex;
-        padding: 12px 24px;
-        justify-content: center;
-        align-items: center;
+padding: 12px 24px;
 cursor: pointer;
 border-radius: 4px;
 border: 1px solid var(--cornflower, #E7E9FC);
@@ -404,7 +384,7 @@ background: var(--cloud, #F4F4FD);
     display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-        width: 1128px;
+       
         column-gap: 24px;
             row-gap: 48px;
          
@@ -421,14 +401,7 @@ background: var(--cloud, #F4F4FD);
 .image-style {
     
         width: 360px;
-        height: 420px;
-        padding-bottom: 0px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 32px;
-        flex-shrink: 0;
-        border: 1px solid var(--cornflower, #E7E9FC);
-            background: var(--white, #FFF);
+            
 }
 
 
@@ -437,6 +410,13 @@ background: var(--cloud, #F4F4FD);
 
 
 .head-name{
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
     margin-bottom: 8px
     
 }
