@@ -244,9 +244,8 @@ border-bottom: 1px solid var(--cornflower, #E7E9FC);
 
     display: flex;
         align-items: center;
-        margin: 0 auto;
         justify-content: space-between;
-        padding: 0 15px 0 15px;
+       
        
 }
 .logo-link {
